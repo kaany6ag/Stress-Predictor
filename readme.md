@@ -48,7 +48,9 @@ pip install -r requirements.txt
 
 STEP 5) RUN THE PROJECT 
 python model.py
-
+The model will output:
+- Accuracy of the model
+- Predicted stress level based on input
 
 
 --SAMPLE OUTPUT --
