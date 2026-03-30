@@ -1,0 +1,86 @@
+                                                  PROJECT REPORT
+
+                                           STUDENT STRESS LEVEL PREDICTOR 
+
+1. INTRODUCTION
+In today’s academic environment, students often experience high levels of stress due to continuous academic pressure, 
+deadlines, and lack of proper rest. Stress may cause negatice impact  on  both mental and physical health. Therefore, identifying
+stress at an early stage is important. This project aims to use machine learning techniques to predict student stress levels
+based on simple lifestyle factors.
+
+2. PROBLEM STATEMENT 
+The objective of this project is to develop a machine learning model that can predict whether a student is stressed or not using
+the following inputs:
+Study hours
+Sleep hours
+
+The model classifies stress into two categories:
+0 → Low Stress  
+1 → High Stress
+
+3. MOTIVATION
+This problem was chosen because stress among students is very common and often ignored. A simple predictive system can help in early 
+detection and encourage better lifestyle habits. This project demonstrates how machine learning can be applied to solve everyday problems.
+
+4. DATASET
+A dataset was manually created for this project due to time constraints. It includes:
+Study Hours: Number of hours spent studying per day
+Sleep Hours: Number of hours of sleep per day
+Stress Level: Target variable indicating stress (0 or 1)
+
+Although the dataset is small, it is sufficient to demonstrate the working of a machine learning model.
+
+5. METHODOLOGY
+The following steps were followed in this project:
+Data creation using pandas DataFrame
+Selection of relevant features (study hours and sleep hours)
+Splitting the dataset into training and testing sets
+Training the model using Logistic Regression
+Evaluating the model using accuracy score
+Making predictions based on new input values
+
+6. MODEL USED 
+Logistic Regression was chosen for this project as it is a simple and effective algorithm for binary classification problems. It helps in
+ predicting the probability of a class and is easy to implement.
+
+7. RESULTS AND OBSERVATIONS
+The model was successfully trained and tested. It was able to predict stress levels based on given inputs.
+
+Example:
+Study Hours = 6, Sleep Hours = 4  
+Prediction = High Stress
+
+The accuracy of the model was reasonable considering the small dataset size. It shows that both study hours and sleep hours have an impact on stress levels.
+
+8. CHALLENGES FACED
+Difficulty in installing and setting up required Python libraries
+Limited dataset size
+Initial confusion in understanding machine learning workflow
+
+These challenges were resolved through practice and debugging.
+
+9. CONCLUSION
+This project successfully demonstrates the use of machine learning in solving a real-world problem. It provides a simple approach to predicting stress 
+levels using basic input features. The project helped in understanding key concepts such as classification, model training, and prediction.
+
+10. LEARNING OUTCOMES 
+Learned how to implement a machine learning model
+Understood the importance of data preprocessing
+Gained hands-on experience with Python libraries like pandas and scikit-learn
+Learned how to debug errors and run code successfully
+
+11. REAL-WORLD APPLICATIONS
+This model can be used in:
+Student counseling systems
+Mental health monitoring tools
+Educational institutions to track student well-being
+
+12. FUTURE SCOPE
+Use larger and real-world datasets
+Include more features such as screen time, physical activity, and social interaction
+Improve model accuracy using advanced algorithms
+Develop a graphical user interface for better usability
+
+13. PERSONAL REFLECTION
+This project was implemented by me as part of my coursework. Initially, I faced issues while setting up the environment 
+and running the code, but resolving these helped me understand the workflow better. This project improved my confidence in working with machine learning concepts.
