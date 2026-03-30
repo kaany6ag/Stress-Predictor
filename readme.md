@@ -7,7 +7,8 @@ This project predicts whether a student is stressed based on study hours and sle
 Students often experience stress due to academic workload and poor lifestyle habits. This project aims to predict stress levels early using basic inputs.
 
 3) SOLUTION :
-A Logistic Regression model is trained to classify stress levels:
+A Logistic Regression model is trained to classify stress levels:<img width="1343" height="291" alt="Screenshot 2026-03-30 220746" src="https://github.com/user-attachments/assets/1f78b367-5fb6-4c0a-a124-79b2ebbab0c8" />
+
  0 → Low Stress
  1 → High Stress
 
@@ -64,6 +65,10 @@ Prediction: High Stress
  Use real dataset
  Add more features
  Build web interface
+
+--OUTPUT SCREENSHOT--
+![Uploading Screenshot 2026-03-30 220746.png…]()
+
 
 AUTHOR:
 Kaanya Agrawal
