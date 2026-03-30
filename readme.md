@@ -37,7 +37,7 @@ STEP 1) INSTALL PYTHON
 Ensure Python is installed on your system.
 
 STEP 2) CLONE REPOSITORY 
-git clone https://github.com/YOUR-USERNAME/Stress-Predictor
+git clone https://github.com/kaany6ag/Stress-Predictor
 
 STEP 3) NAVIGATE TO PROJECT FOLDER 
 cd Stress-Predictor
